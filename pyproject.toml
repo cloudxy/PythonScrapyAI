@@ -1,9 +1,19 @@
+# ---------------------- PEP 621核心配置（必须有，解决uv的错误） ----------------------
 [project]
 name = "pythonscrapyai"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.9"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.9.4",
+    "numpy>=2.0.2",
+    "pandas>=2.3.3",
+    "poetry>=2.2.1",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+    "scikit-learn>=1.6.1",
+    "tensorflow>=2.20.0",
+]
 
 # 主索引源（优先级最高）
 index-url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
