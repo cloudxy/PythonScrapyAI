@@ -1,0 +1,13 @@
+[project]
+name = "pythonscrapyai"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.9"
+dependencies = []
+
+# 主索引源（优先级最高）
+index-url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+# 备用索引源（主源找不到时用）
+extra-index-url = ["https://pypi.org/simple/"]
+# 可选：禁用默认的 PyPI 源（避免冗余）
+no-default-index = true
