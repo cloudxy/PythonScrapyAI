@@ -79,7 +79,6 @@ poetry run python main.py
 
 ### git简单使用
 ```text
-# 初始化git（若未初始化）
 # 初始化 Git 仓库（仅首次执行）
 git init
 # 直接添加新的 origin 地址
